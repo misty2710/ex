@@ -1,0 +1,41 @@
+virtualnet(public,private).2 vm
+
+ssh -i "pathvm1\key.pem"azureuser@public ip
+sudo su
+ping 172.16.1.4
+
+ls
+vi databasekey.pem(2ndkey) 
+private key insert
+wq
+ls
+ chmod 2nd key.pem
+ls
+ssh -i "2ndkey.pem azureuser@172.16.1.4
+
+pr7
+1 virtual network
+2 vm
+
+5th  sudo su
+adduser jack
+mkdir folder
+ls -lrt
+cd folder
+touch abc
+ls -lrt
+su-jack
+cd/tmp
+cd folder
+rn abc
+exit
+rmdir folder
+rm abc
+rmdir folder
+chown jack folder
+ls -lrt
+chgrp jack
+ls -lrt
+cd..
+chmod 1777 folder 
+ls -lrt
